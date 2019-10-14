@@ -90,6 +90,9 @@ The game is designed to be simple to understand. When picked up the three most o
 
 #### JS Constructs & objects
 player(player) the sprite always visible on the screen
+
 enemy(enmy) the sprites scrolling toward the player
+
 projectile(prog) the projectile fired with AB 
+
 kills (kills) the number of enemies killed with a projectile
