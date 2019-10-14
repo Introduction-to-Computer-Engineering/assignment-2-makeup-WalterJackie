@@ -72,7 +72,7 @@ basic.forever(function () {
         led.plot(2, 0)
         led.plot(3, 0)
         led.plot(4, 0)
-    } else if (kills == 4) {
+    } else if (kills == 5) {
         led.plot(1, 0)
         led.plot(2, 0)
         led.plot(3, 0)
