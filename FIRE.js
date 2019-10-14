@@ -37,7 +37,7 @@ player = game.createSprite(0, 2)
 basic.pause(800)
 
 //enmy loop
-for (let index = 0; index < 4; index++) {
+for (let index = 0; index < 5; index++) {
     enmy = game.createSprite(4, Math.randomRange(1, 4))
     basic.pause(1000)
     enmy.turnLeft(180);
@@ -72,7 +72,13 @@ basic.forever(function () {
         led.plot(2, 0)
         led.plot(3, 0)
         led.plot(4, 0)
-    } else {
+    } else if (kills == 4) {
+        led.plot(1, 0)
+        led.plot(2, 0)
+        led.plot(3, 0)
+        led.plot(4, 0)
+        led.plot(5, 0)
+        } else {
 
     }
 
