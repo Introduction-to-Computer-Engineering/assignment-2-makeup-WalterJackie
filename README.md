@@ -83,10 +83,13 @@ This assignment asks you to go complete the Final Project for the [Intro to CS c
 ### Description
 
 #### Goal
-TODO
+FIRE is a four position side scrolling shooter made to run on micro:bit. enemies scroll from the right toward the player on the left. the projectiles fired with AB eliminate the enemy increasing score enemies can (doge) move through projectiles so shots must be taken with proper timing. alternatively you can dodge the enemies surviving but not increasing score. 
 
 #### Design process
-TODO
+The game is designed to be simple to understand. When picked up the three most obvious inputs A, B, and A+B can be tested before the first enemy reaches the player. The score after victory indicates numbers of kills as well as gives the player more reasons to play again until they can achieve a perfect five.
 
 #### JS Constructs & objects
-TODO
+player(player) the sprite always visible on the screen
+enemy(enmy) the sprites scrolling toward the player
+projectile(prog) the projectile fired with AB 
+kills (kills) the number of enemies killed with a projectile
